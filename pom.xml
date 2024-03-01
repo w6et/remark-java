@@ -12,7 +12,7 @@
 	<description>Remark is a library for taking (X)HTML input and outputting clean Markdown, Markdown Extra, or
 		MultiMarkdown compatible text.
 	</description>
-	<url>https://bitbucket.org/OverZealous/remark</url>
+	<url>https://github.com/kotcrab/remark-java</url>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -48,8 +48,8 @@
 		</contributor>
 	</contributors>
 	<scm>
-		<connection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</connection>
-		<developerConnection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</developerConnection>
+		<connection>scm:git:git@github.com:w6et/remark-java.git</connection>
+		<developerConnection>scm:git:git@github.com:w6et/remark-java.git</developerConnection>
 		<url>git@github.com:w6et/remark-java.git</url>
 	</scm>
 	<properties>
