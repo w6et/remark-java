@@ -1,56 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.w6et.remark</groupId>
-    <artifactId>remark</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
-    <inceptionYear>2011</inceptionYear>
-    <name>Remark</name>
-    <description>Remark is a library for taking (X)HTML input and outputting clean Markdown, Markdown Extra, or
-        MultiMarkdown compatible text.
-    </description>
-    <url>https://bitbucket.org/OverZealous/remark</url>
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-    <developers>
-        <developer>
-            <name>Phil DeJarnett</name>
-            <organization>OverZealous Creations, LLC</organization>
-            <organizationUrl>http://www.overzealous.com</organizationUrl>
-            <roles>
-                <role>Original Developer</role>
-            </roles>
-        </developer>
-        <developer>
-            <name>Guilherme I F L Weizenmann</name>
-            <email>g.weizenmann@gmail.com</email>
-            <organization>ITQuasar</organization>
-            <organizationUrl>http://itquasar.com</organizationUrl>
-            <roles>
-                <role>Developer</role>
-            </roles>
-        </developer>
-    </developers>
-    <contributors>
-        <contributor>
-            <name>Alex Boyko</name>
-            <properties>
-                <github>https://github.com/BoykoAlex</github>
-            </properties>
-        </contributor>
-    </contributors>
-    <scm>
-        <connection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</connection>
-        <developerConnection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</developerConnection>
-        <url>git@github.com:giflw/remark-java.git</url>
-    </scm>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.w6et</groupId>
+	<artifactId>remark</artifactId>
+	<version>1.2.3</version>
+	<inceptionYear>2024</inceptionYear>
+	<name>Remark</name>
+	<description>Remark is a library for taking (X)HTML input and outputting clean Markdown, Markdown Extra, or
+		MultiMarkdown compatible text.
+	</description>
+	<url>https://bitbucket.org/OverZealous/remark</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Phil DeJarnett</name>
+			<organization>OverZealous Creations, LLC</organization>
+			<organizationUrl>http://www.overzealous.com</organizationUrl>
+			<roles>
+				<role>Original Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Guilherme I F L Weizenmann</name>
+			<email>g.weizenmann@gmail.com</email>
+			<organization>ITQuasar</organization>
+			<organizationUrl>http://itquasar.com</organizationUrl>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Alex Boyko</name>
+			<properties>
+				<github>https://github.com/BoykoAlex</github>
+			</properties>
+		</contributor>
+	</contributors>
+	<scm>
+		<connection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</connection>
+		<developerConnection>scm:git:git@github.com:w6et/remark-java-kotcrab.git</developerConnection>
+		<url>git@github.com:w6et/remark-java.git</url>
+	</scm>
+	<properties>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+		<project.encoding>UTF-8</project.encoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<junit.version>4.13.2</junit.version>
+		<commons-cli.version>1.6.0</commons-cli.version>
+		<commons-io.version>2.15.1</commons-io.version>
+		<commons-lang3.version>3.14.0</commons-lang3.version>
+		<jsoup.version>1.17.2</jsoup.version>
+
+		<central-publishing-maven-plugin.version>0.3.0</central-publishing-maven-plugin.version>
+
+		<maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
+		<maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+		<maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
+		<maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
+		<maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
+		<maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+		<maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
+		<maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
+		<maven-release-plugin.version>3.0.1</maven-release-plugin.version>
+		<maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+	</properties>
+	<!--
     <distributionManagement>
         <repository>
             <id>bintray-giflw-maven</id>
@@ -58,38 +89,125 @@
             <url>https://api.bintray.com/maven/giflw/maven/remark-java/;publish=1</url>
         </repository>
     </distributionManagement>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.15.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.17.2</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.14.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <!-- needed to use command line utility -->
-            <groupId>commons-cli</groupId>
-            <artifactId>commons-cli</artifactId>
-            <version>1.6.0</version>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
+	-->
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${jsoup.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<!-- needed to use command line utility -->
+			<groupId>commons-cli</groupId>
+			<artifactId>commons-cli</artifactId>
+			<version>${commons-cli.version}</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.sonatype.central</groupId>
+				<artifactId>central-publishing-maven-plugin</artifactId>
+				<version>${central-publishing-maven-plugin.version}</version>
+				<extensions>true</extensions>
+				<configuration>
+					<publishingServerId>central</publishingServerId>
+					<tokenAuth>true</tokenAuth>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+					<!-- <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion> -->
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven-source-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven-javadoc-plugin.version}</version>
+				<configuration>
+					<doclint>none</doclint>
+					<legacyMode>true</legacyMode>
+					<charset>UTF-8</charset>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>${maven-gpg-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+						<!--<configuration>
+							<gpg.executable>gpg</gpg.executable>
+							<keyname>${gpg.keyname}</keyname>
+							<passphraseServerId>${gpg.keyname}</passphraseServerId>
+						</configuration>-->
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
